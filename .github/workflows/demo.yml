@@ -28,7 +28,7 @@ jobs:
       - name: store-as-output
         uses: actions/upload-artifact@v4
         with:
-          path: !
+          path: |
             dist
             src/vite.svg
 
